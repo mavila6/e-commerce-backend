@@ -2,8 +2,6 @@
 
 ## Website
 
-
-
 ## Description
 
 A back-end application for e-commerce websites.
@@ -20,13 +18,11 @@ A back-end application for e-commerce websites.
 
 ### Built-With
 
-![html](https://img.shields.io/badge/HTML-red.svg)
-![CSS](https://img.shields.io/badge/CSS-blue.svg)
+![Sequelize](https://img.shields.io/badge/Sequelize-blue.svg)
 ![Javascript](https://img.shields.io/badge/JavaScript-brightgreen.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-blueviolet.svg)
 ![Express.js](https://img.shields.io/badge/Express.js-ff69b4.svg)
-![MongoDB](https://img.shields.io/badge/MongoDB-green.svg)
-![Mongoose](https://img.shields.io/badge/Mongoose-purple.svg)
+![mySQL](https://img.shields.io/badge/mySQL-green.svg)
 
 ### Installation
 
@@ -34,14 +30,16 @@ Clone the repository in the CLI: `git clone https://github.com/mavila6/e-commerc
 
 ### Usage
 
-Run `npm start` in the command line to initiate the server. Go ahead and navigate to localhost port 3001 in your browser to test the application.
+After installing dependencies, log into mySQL with `mysql -u root -p` and create a database with `source db/schema.sql`. See the database by running `npm run seed` and you can initiate the server with `npm start`.
 
 ### Walkthrough-video
 
-![Walkthrough Video](d)
+![Walkthrough Video](/)
 ### Acknowledgements
 
 - Used [starter code](https://github.com/coding-boot-camp/fantastic-umbrella/tree/main/Develop) from [The Coding Bootcamp](https://github.com/coding-boot-camp) GitHub.
+
+- Used [Nathan Pfau's](https://github.com/bobswiftfoot/e-commerce) code for refernce on this assignment.
 
 - Collaborated with [Kama Castaneda](https://github.com/kamacasta) to complete this challenge.
 
