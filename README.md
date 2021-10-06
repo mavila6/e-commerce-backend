@@ -1,7 +1,5 @@
 # E-Commerce-Backend
 
-## Website
-
 ## Description
 
 A back-end application for e-commerce websites.
